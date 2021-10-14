@@ -1,5 +1,5 @@
 :root {
-  --font-family: 'Red Hat Display', sans-serif;
+  --font-family: "Red Hat Display", sans-serif;
   --color-one: hsl(192, 37%, 48%);
   --color-one-hover: hsl(192, 90%, 77%);
   --color-two: hsl(268, 34%, 53%);
@@ -185,8 +185,17 @@ p {
 }
 
 .btn__large--green:hover, .btn__large--green:active {
-  background: var(--color-one-hover);
+  background: rgba(114, 193, 213, 0.9);
   cursor: pointer;
+}
+
+.btn__version--color {
+  color: var(--color-one-hover);
+  letter-spacing: inherit;
+}
+
+.btn__version--color:active {
+  background: var(--color-one);
 }
 
 .btn__large--purple {
@@ -199,7 +208,7 @@ p {
 }
 
 .btn__large--purple:hover, .btn__large--purple:active {
-  background: var(--color-two-hover);
+  background: rgba(177, 141, 221, 0.9);
   cursor: pointer;
 }
 
@@ -212,7 +221,7 @@ p {
 }
 
 .btn__small--purple:hover, .btn__small--purple:active {
-  background: var(--color-two-hover);
+  background: rgba(177, 141, 221, 0.9);
   cursor: pointer;
 }
 
@@ -256,4 +265,30 @@ p {
 .divider__text--color {
   color: var(--color-four);
   letter-spacing: inherit;
+}
+
+.images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (255px)[4];
+      grid-template-columns: repeat(4, 255px);
+  grid-gap: 30px;
+  justify-items: center;
+  margin: 64px 24rem 80px 24rem;
+}
+
+@media (max-width: 1400px) {
+  .images {
+    margin: 64px 9rem 80px 9rem;
+  }
+}
+
+.images__photo--1, .images__photo--2, .images__photo--3, .images__photo--4 {
+  -webkit-clip-path: inset(4% 4% 4% 4% round 8px);
+          clip-path: inset(4% 4% 4% 4% round 8px);
+}
+
+.images img {
+  width: 255px;
+  height: 242px;
 }
