@@ -93,3 +93,33 @@
     width: 139px;
   }
 }
+.divider {
+  margin: 110px 53rem;
+  @media (max-width: 1400px) {
+    margin: 110px 38rem;
+  }
+  &__line {
+    width: 1px;
+    height: 84px;
+    opacity: 0.25;
+    border: 1px solid var(--color-four);
+    margin-left: 27px;
+  }
+
+  &__circle {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-five);
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    box-sizing: border-box;
+    border-radius: 29px;
+  }
+
+  &__text--color {
+    color: var(--color-four);
+    letter-spacing: inherit;
+  }
+}
