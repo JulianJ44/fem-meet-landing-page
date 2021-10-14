@@ -1,9 +1,13 @@
+////////LOGO///////
 .logo {
   display: flex;
   justify-content: center;
   margin-bottom: 108px;
   margin-top: 80px;
 }
+////////LOGO END///////
+
+////////HERO///////
 .hero {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -63,7 +67,9 @@
     }
   }
 }
+////////HERO END///////
 
+////////BUTTONS///////
 .btn {
   width: 193px;
   height: 58px;
@@ -78,6 +84,13 @@
     color: #ffffff;
     margin-right: 16px;
     font-weight: 900;
+    transition: all 0.2s;
+
+    &:hover,
+    &:active {
+      background: var(--color-one-hover);
+      cursor: pointer;
+    }
   }
 
   &__large--purple {
@@ -85,14 +98,31 @@
     color: #ffffff;
     margin-right: 16px;
     font-weight: 900;
+    transition: all 0.2s;
+
+    &:hover,
+    &:active {
+      background: var(--color-two-hover);
+      cursor: pointer;
+    }
   }
 
   &__small--purple {
     background: var(--color-two);
     color: #ffffff;
     width: 139px;
+    transition: all 0.2s;
+
+    &:hover,
+    &:active {
+      background: var(--color-two-hover);
+      cursor: pointer;
+    }
   }
 }
+////////BUTTONS END///////
+
+////////DIVIDER///////
 .divider {
   margin: 110px 53rem;
   @media (max-width: 1400px) {
@@ -123,3 +153,4 @@
     letter-spacing: inherit;
   }
 }
+////////DIVIDER END///////

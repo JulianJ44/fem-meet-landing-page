@@ -180,6 +180,13 @@ p {
   color: #ffffff;
   margin-right: 16px;
   font-weight: 900;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn__large--green:hover, .btn__large--green:active {
+  background: var(--color-one-hover);
+  cursor: pointer;
 }
 
 .btn__large--purple {
@@ -187,12 +194,26 @@ p {
   color: #ffffff;
   margin-right: 16px;
   font-weight: 900;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn__large--purple:hover, .btn__large--purple:active {
+  background: var(--color-two-hover);
+  cursor: pointer;
 }
 
 .btn__small--purple {
   background: var(--color-two);
   color: #ffffff;
   width: 139px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.btn__small--purple:hover, .btn__small--purple:active {
+  background: var(--color-two-hover);
+  cursor: pointer;
 }
 
 .divider {
