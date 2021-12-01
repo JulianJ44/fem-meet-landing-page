@@ -38,6 +38,10 @@ body {
   font-family: var(--font-family);
 }
 
+img {
+  max-width: 100%;
+}
+
 h1 {
   font-family: var(--font-family);
   font-size: 3.55555rem;
@@ -69,6 +73,37 @@ p {
   color: var(--color-four);
 }
 
+.logo__container {
+  width: 39%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.main__container,
+.footer__container {
+  width: 90%;
+  max-width: 327px;
+  margin: 0 auto;
+}
+
+.footer__container {
+  width: 100%;
+  max-width: 327px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.container {
+  width: 88%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.mt-23 {
+  margin-top: -23px;
+}
+
 //////////RESOURCES///////////
 /*bennett feely - https://bennettfeely.com/clippy/*/
+/* w3schools (PX - EM)  - https://www.w3schools.com/tags/ref_pxtoemconversion.asp*/
 //////////RESOURCES End///////////

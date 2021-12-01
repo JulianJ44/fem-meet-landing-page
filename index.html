@@ -19,8 +19,10 @@
   </head>
   <body>
     <main>
-      <div class="logo">
-        <img src="/assets/logo.svg" alt="Meet logo" />
+      <div class="logo__container">
+        <div class="logo">
+          <img src="/assets/logo.svg" alt="Meet logo" />
+        </div>
       </div>
       <div class="hero">
         <div class="hero__left">
@@ -29,13 +31,13 @@
             alt="Hero Left image"
           />
         </div>
-        <div class="hero__main">
+        <div class="container hero__main">
           <h1 class="hero__heading">Group Chat for Everyone</h1>
           <p class="hero__paragraph">
             Meet makes it easy to connect with others face-to-face virtually and
             collaborate across any device.
           </p>
-          <div class="hero__btns">
+          <div class="container hero__btns">
             <div class="btn btn__large--green">
               Download <span class="btn__version--color">v1.3</span>
             </div>
@@ -56,7 +58,7 @@
         </div>
       </div>
 
-      <div class="images">
+      <div class="container images">
         <div class="images__photo--1">
           <img
             src="assets/desktop/image-woman-in-videocall.jpg"
@@ -79,29 +81,49 @@
           <img src="assets/desktop/image-man-texting.jpg" alt="Man texting" />
         </div>
       </div>
-      <!--<section class="main">
-        <span>Built for modern use</span>
-        <h2>Smarter meetings, all in one place</h2>
-        <p>
+      <section class="main__container main">
+        <p class="main__title">Built for modern use</p>
+        <h2 class="main__heading">Smarter meetings, all in one place</h2>
+        <p class="main__paragraph">
           Send messages, share files, show your screen, and record your meetings
-          — all in one workspace. Control who can join with invite-only team
-          access, data encryption, and data export.
+          — all in one workspace. Control who can join with <br />invite-only
+          team access, data encryption, and data export.
         </p>
-      </section>-->
+      </section>
       <div class="divider">
         <div class="divider__line"></div>
         <div class="divider__circle">
           <span class="divider__text--color">02</span>
         </div>
       </div>
-      <!--<footer class="footer__container">
-        <h2>Experience more together</h2>
-        <p>
-          Experience more together Stay connected with reliable HD meetings and
-          unlimited one-on-one and group video sessions.
+      <footer class="footer mt-23">
+        <picture>
+          <source
+            media="(max-width: 375px)"
+            srcset="/assets/mobile/image-footer.jpg"
+          />
+          <source
+            media="(max-width: 768px)"
+            srcset="/assets/tablet/image-footer.jpg"
+          />
+          <source
+            media="(max-width: 1440px)"
+            srcset="/assets/desktop/image-footer.jpg"
+          />
+          <img
+            src="/assets/mobile/image-footer.jpg"
+            alt="Chris standing up holding his daughter Elva"
+          />
+        </picture>
+        <h2 class="footer__heading">Experience more together</h2>
+        <p class="footer__paragraph">
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
         </p>
-        <div class="btn btn__large--purple">Download v1.3</div>
-      </footer>-->
+        <div class="btn btn__large--purple">
+          Download <span class="btn__version-purple--color">v1.3</span>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
