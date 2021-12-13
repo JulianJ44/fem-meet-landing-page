@@ -464,7 +464,7 @@ p {
 @media (min-width: 48em) {
   .btn__small--purple {
     width: 39%;
-    height: 3.222em;
+    height: 3.222rem;
   }
 }
 
