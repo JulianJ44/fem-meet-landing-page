@@ -1,6 +1,6 @@
 ////////LOGO///////
 .logo {
-  margin: 48px 0;
+  margin: 2.667rem 0;
 }
 ////////LOGO END///////
 
@@ -13,13 +13,13 @@
   &__right {
     display: none;
 
-    @media (min-width: 44.44444444444444em) {
+    @media (min-width: 50em) {
       display: block;
     }
   }
 
   &__left {
-    @media (min-width: 106.66666666666667em) {
+    @media (min-width: 120em) {
       display: grid;
       grid-column: 1;
       grid-row: 1;
@@ -30,12 +30,12 @@
   &__mobile {
     width: 100%;
 
-    @media (min-width: 44.44444444444444em) {
+    @media (min-width: 50em) {
       display: none;
     }
   }
 
-  @media (min-width: 44.44444444444444em) {
+  @media (min-width: 50em) {
     grid-template-columns: 1fr 2fr 1fr;
   }
 
@@ -44,7 +44,7 @@
     grid-row: 2/3;
     grid-column: span 3;
 
-    @media (min-width: 44.44444444444444em) {
+    @media (min-width: 50em) {
       grid-row: 1/2;
       grid-column: 2;
       justify-content: center;
@@ -57,24 +57,24 @@
 
   &__heading {
     width: 88%;
-    font-size: 40px;
-    margin: 48px auto 24px auto;
+    font-size: 2.222rem;
+    margin: 2.667rem auto 1.333rem auto;
     text-align: center;
-    line-height: 44px;
+    line-height: 2.444rem;
 
-    @media (min-width: 42.666666666666664em) {
-      font-size: 48px;
-      line-height: 48px;
-      margin: 72px auto 24px auto;
+    @media (min-width: 48em) {
+      font-size: 2.667rem;
+      line-height: 2.667rem;
+      margin: 4rem auto 1.333rem auto;
       max-width: 339px;
     }
 
-    @media (min-width: 44.44444444444444em) {
-      margin-top: 23px;
+    @media (min-width: 50em) {
+      margin-top: 1.278rem;
     }
 
     @media (min-width: 90em) {
-      margin-top: 60px;
+      margin-top: 3.333rem;
       max-width: 445px;
       width: 60%;
     }
@@ -82,49 +82,49 @@
 
   &__paragraph {
     width: 100%;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 0.889rem;
+    line-height: 1.444rem;
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 1.778rem;
 
-    @media (min-width: 42.666666666666664em) {
+    @media (min-width: 48em) {
       max-width: 457px;
       width: 75%;
-      margin: 0 auto 32px auto;
+      margin: 0 auto 1.778rem auto;
     }
 
-    @media (min-width: 44.44444444444444em) {
-      width: 89%;
+    @media (min-width: 50em) {
+      width: 93%;
     }
 
-    @media (min-width: 80em) {
+    @media (min-width: 90em) {
       max-width: 540px;
       width: 87%;
     }
   }
 
-  @media (min-width: 42.666666666666664em) {
+  @media (min-width: 48em) {
     &__btns {
       display: flex;
       justify-content: center;
-      padding: 0 113px;
+      padding: 0 6.278rem;
     }
   }
 
-  @media (min-width: 44.44444444444444em) {
+  @media (min-width: 50em) {
     &__btns {
-      padding: 0 2px;
+      padding: 0 0.111rem;
     }
   }
 
   &__right {
     margin-right: 0;
 
-    @media (min-width: 44.44444444444444em) {
-      margin-top: 43px;
+    @media (min-width: 50em) {
+      margin-top: 2.389rem;
     }
 
-    @media (min-width: 80em) {
+    @media (min-width: 90em) {
       display: grid;
       grid-column: 3/3;
       grid-row: 3/1;
@@ -132,7 +132,7 @@
       justify-content: center;
     }
 
-    @media (min-width: 106.66666666666667em) {
+    @media (min-width: 120em) {
       display: grid;
       grid-column: 3;
       grid-row: 1/3;
@@ -141,7 +141,7 @@
     }
   }
 
-  @media (min-width: 106.66666666666667em) {
+  @media (min-width: 120em) {
     grid-template-columns: repeat(3, 1fr);
     margin: auto 2.5rem;
   }
@@ -154,20 +154,20 @@
   width: 70%;
   font-size: 0.9rem;
   font-weight: 900;
-  line-height: 26px;
+  line-height: 1.444rem;
   text-align: center;
   border-radius: 29px;
   padding: 0.9em 1.611em;
   margin: var(--mc-auto);
 
-  @media (min-width: 42.666666666666664em) {
-    padding: 16px 29px;
+  @media (min-width: 48em) {
+    padding: 0.889rem 1.611rem;
   }
 
   &__large--green {
     background: var(--color-one);
     color: #ffffff;
-    margin-bottom: 16px;
+    margin-bottom: 0.889rem;
     transition: all 0.2s;
 
     &:hover,
@@ -176,7 +176,7 @@
       cursor: pointer;
     }
 
-    @media (min-width: 42.666666666666664em) {
+    @media (min-width: 48em) {
       width: 51%;
     }
   }
@@ -193,7 +193,7 @@
   &__large--purple {
     background: var(--color-two);
     color: #ffffff;
-    margin-bottom: 16px;
+    margin-bottom: 0.889rem;
     transition: all 0.2s;
     width: 65%;
 
@@ -203,11 +203,11 @@
       cursor: pointer;
     }
 
-    @media (min-width: 42.666666666666664em) {
+    @media (min-width: 48em) {
       width: 26%;
     }
 
-    @media (min-width: 80em) {
+    @media (min-width: 90em) {
       width: 44%;
     }
   }
@@ -232,9 +232,9 @@
       background: hsla(267, 54%, 71%, 0.9);
       cursor: pointer;
     }
-    @media (min-width: 42.666666666666664em) {
-      width: 38%;
-      height: 58px;
+    @media (min-width: 48em) {
+      width: 39%;
+      height: 3.222em;
     }
   }
 }
@@ -244,12 +244,12 @@
 ////////DIVIDER///////
 .divider {
   position: relative;
-  margin: 64px 0 0 0;
+  margin: 3.556rem 0 0 0;
   z-index: 2;
 
   &__line {
     width: 1px;
-    height: 84px;
+    height: 4.667rem;
     opacity: 0.25;
     border: 1px solid var(--color-four);
     margin: var(--mc-auto);
@@ -280,13 +280,13 @@
 .images {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 12px;
-  margin-top: 64px;
-  margin-bottom: 64px;
+  grid-gap: 0.667rem;
+  margin-top: 3.556rem;
+  margin-bottom: 3.556rem;
 
-  @media (min-width: 42.666666666666664em) {
+  @media (min-width: 48em) {
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 11px;
+    grid-gap: 0.611rem;
   }
 
   &__photo--1,
@@ -303,9 +303,9 @@
 .main {
   &__title {
     font-family: var(--font-family);
-    font-size: 16px;
+    font-size: 0.889rem;
     font-weight: var(--font-weight-900);
-    line-height: 26px;
+    line-height: 1.444rem;
     letter-spacing: 0.2222rem;
     color: var(--color-one);
     text-transform: uppercase;
@@ -313,16 +313,16 @@
   }
 
   &__heading {
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 1.778rem;
+    line-height: 2rem;
     text-align: center;
-    margin: 24px 0 32px 0;
+    margin: 1.333rem 0 1.778rem 0;
 
-    @media (min-width: 42.666666666666664em) {
+    @media (min-width: 48em) {
       font-size: 40px;
       line-height: 44px;
       width: 61%;
-      margin: 24px auto 32px auto;
+      margin: 1.333rem auto 1.778rem auto;
     }
 
     @media (min-width: 90em) {
@@ -331,18 +331,18 @@
   }
 
   &__paragraph {
-    font-size: 16px;
+    font-size: 0.889rem;
     text-align: center;
     width: 98%;
     max-width: 327px;
 
-    @media (min-width: 42.666666666666664em) {
+    @media (min-width: 48em) {
       width: 96%;
       margin: var(--mc-auto);
       max-width: 573px;
     }
 
-    @media (min-width: 80em) {
+    @media (min-width: 90em) {
       width: 84%;
       max-width: 540px;
     }
@@ -360,12 +360,12 @@
   padding: 5rem 1.5rem;
   height: 21em;
 
-  @media (min-width: 42.666666666666664em) {
+  @media (min-width: 48em) {
     background-image: url("../assets/tablet/image-footer.jpg");
     background-size: center;
   }
 
-  @media (min-width: 80em) {
+  @media (min-width: 90em) {
     background-image: url("../assets/desktop/image-footer.jpg");
     height: 15em;
   }
@@ -382,7 +382,7 @@
   }
 
   &__grid {
-    @media (min-width: 80em) {
+    @media (min-width: 90em) {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       align-items: center;
@@ -390,18 +390,18 @@
   }
 
   &__heading {
-    font-size: 32px;
+    font-size: 1.778rem;
     text-align: center;
     color: var(--color-five);
-    margin-bottom: 24px;
+    margin-bottom: 1.333rem;
 
-    @media (min-width: 42.666666666666664em) {
+    @media (min-width: 48em) {
       width: 66%;
-      font-size: 40px;
-      margin: 0 auto 32px auto;
+      font-size: 2.222rem;
+      margin: 0 auto 1.778rem auto;
     }
 
-    @media (min-width: 80em) {
+    @media (min-width: 90em) {
       width: 75%;
       text-align: left;
     }
@@ -413,17 +413,16 @@
   }
 
   &__paragraph {
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
     color: var(--color-five);
-    margin-bottom: 32px;
-
-    @media (min-width: 42.666666666666664em) {
+    margin-bottom: 1.778rem;
+    @media (min-width: 48em) {
       width: 82%;
-      margin: 0 auto 40px auto;
+      margin: 0 auto 2.222rem auto;
     }
 
-    @media (min-width: 80em) {
+    @media (min-width: 90em) {
       width: 74%;
       text-align: left;
     }
